@@ -1,4 +1,4 @@
-package com.gl.g5b8.client;
+package com.gl.g5b8.driver;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ import com.gl.g5b8.model.HrDepartment;
 import com.gl.g5b8.model.SuperDepartment;
 import com.gl.g5b8.model.TechDepartment;
 
-public class Client {
+public class Main {
 	public static void main(String[] args) {
 		ArrayList<SuperDepartment> departments = new ArrayList<>();
 		departments.add(new AdminDepartment());
